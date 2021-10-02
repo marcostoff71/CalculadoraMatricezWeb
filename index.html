@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de matrices</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" media="all">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="conMatriz">
+            <span id="lblInfoM1" class="info">1x1</span>
+            <div class="center">
+                <div class="matriz" id="matriz1">
+                    <div class="row">
+                        <input type="number" class="box" required>
+                        
+                    </div>
+                    
+                </div>
+                <div class="buttons-vertical">
+                    <img src="./assets/img/arriba.svg" alt="" class="img-row vertical" id="btn-arriba-m1">
+                    <img src="./assets/img/abajo.svg" alt="" class="img-row vertical" id="btn-abajo-m1">
+                </div>
+            </div>
+            
+            <div class="buttons-horizontal">
+                <img src="./assets/img/izquierda.svg" alt="" class="img-row" id="btn-izquierda-m1">
+                <img src="./assets/img/derecha.svg" alt="" class="img-row" id="btn-derecha-m1">
+            </div>
+        </div>
+
+        <div class="conMatriz">
+            <div>
+                <input type="button" value="+" class="btn" id="btnSuma">
+            </div>
+            <div>
+                <input type="button" value="-" class="btn" id="btnResta">
+            </div>
+            <div>
+                <input type="button" value="*" class="btn" id="btnMulti">
+            </div>
+        </div>
+        <div class="conMatriz">
+            <span id="lblInfoM2" class="info">1x1</span>
+            <div class="center">
+                <div class="matriz" id="matriz2">
+                    <div class="row">
+                        <input type="number" class="box" required>
+                        
+                    </div>
+                    
+                </div>
+                <div class="buttons-vertical">
+                    <img src="./assets/img/arriba.svg" alt="" class="img-row vertical"  id="btn-arriba-m2">
+                    <img src="./assets/img/abajo.svg" alt="" class="img-row vertical"  id="btn-abajo-m2">
+                </div>
+            </div>
+            
+            <div class="buttons-horizontal">
+                <img src="./assets/img/izquierda.svg" alt="" class="img-row" id="btn-izquierda-m2">
+                <img src="./assets/img/derecha.svg" alt="" class="img-row" id="btn-derecha-m2">
+            </div>
+        </div>
+    </div>
+
+    <div class="re">
+        
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
